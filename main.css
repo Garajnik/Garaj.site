@@ -7,16 +7,16 @@
 
 .toggle-checkbox{
     display: none; 
+    background-color:  transparent;
 }
 
 .toggle-label {
     position: absolute;
-    background-color: #ccc;
+    background: transparent;
     padding: 5px;
     cursor: pointer;
-    border-radius: 100%;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
   }
 
 .page{
