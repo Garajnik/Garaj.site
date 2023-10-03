@@ -17,6 +17,7 @@ body {
 }
 
 #logo {
+    user-select: none;
     width: 20%; 
     height: 20%; 
     margin-top: -20%;
@@ -28,3 +29,42 @@ h1{
     color: #cecece;
     font-size: 20px;
 }
+
+.button-list {
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    display: flex; 
+    margin-top: 20px;
+    padding: 0; 
+}
+
+.button-list li {
+    margin-right: 20px;
+}
+
+/* Стилизация кнопок */
+.button-list li button {
+    user-select: none;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align:center;
+    color: #cecece;
+    text-shadow: -1.3px 1.3px 2px rgb(41, 41, 41);
+    border-radius: 10px;
+    background-color: #b3b3b3;
+    width: 150px;
+    height: 38px;
+  
+  }
+  
+  .button-list li button:hover {
+    background-color: #949494;
+  }
+  
+  .button-list li button:active {
+    background-color: #838383;
+  
+  }
