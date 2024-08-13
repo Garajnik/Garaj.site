@@ -40,19 +40,19 @@ function App() {
 
         <div className="flex justify-evenly gap-x-6 mt-3">
           <img
-            src="./src/Assets/artstationlogo.png"
+            src="./Garaj.site/src/Assets/artstationlogo.png"
             alt="ArtStation"
             className="w-12 h-12 cursor-pointer"
             onClick={openAS}
           />
           <img
-            src="./src/Assets/youtube_social_circle_dark.png"
+            src="./Garaj.site/src/Assets/youtube_social_circle_dark.png"
             alt="YouTube"
             className="w-12 h-12 cursor-pointer"
             onClick={openYT}
           />
           <img
-            src="./src/Assets/github-mark.png"
+            src="./Garaj.site/src/Assets/github-mark.png"
             onClick={openGH}
             alt="Image 3"
             className="w-12 h-12 cursor-pointer"
