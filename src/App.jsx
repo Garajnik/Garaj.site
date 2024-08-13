@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import YTLogo from "./Assets/youtube_social_circle_dark.png";
+import ASLogo from "./Assets/artstationlogo.png";
+import GHLogo from "./Assets/github-mark.png";
 
 function App() {
   const [textColor, setTextColor] = useState("");
@@ -41,19 +43,19 @@ function App() {
 
         <div className="flex justify-evenly gap-x-6 mt-3">
           <img
-            src={YTLogo}
+            src={ASLogo}
             alt="ArtStation"
             className="w-12 h-12 cursor-pointer"
             onClick={openAS}
           />
           <img
-            src="./Assets/youtube_social_circle_dark.png"
+            src={YTLogo}
             alt="YouTube"
             className="w-12 h-12 cursor-pointer"
             onClick={openYT}
           />
           <img
-            src="./Garaj.site/Assets/microIcon.png"
+            src={GHLogo}
             onClick={openGH}
             alt="Image 3"
             className="w-12 h-12 cursor-pointer"
