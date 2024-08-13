@@ -46,13 +46,13 @@ function App() {
             onClick={openAS}
           />
           <img
-            src="./Garaj.site/src/Assets/youtube_social_circle_dark.png"
+            src="src/Assets/youtube_social_circle_dark.png"
             alt="YouTube"
             className="w-12 h-12 cursor-pointer"
             onClick={openYT}
           />
           <img
-            src="./Garaj.site/src/Assets/github-mark.png"
+            src="./github-mark.png"
             onClick={openGH}
             alt="Image 3"
             className="w-12 h-12 cursor-pointer"
