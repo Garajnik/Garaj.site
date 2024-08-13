@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import YTLogo from "./Assets/youtube_social_circle_dark.png";
 
 function App() {
   const [textColor, setTextColor] = useState("");
@@ -40,7 +41,7 @@ function App() {
 
         <div className="flex justify-evenly gap-x-6 mt-3">
           <img
-            src="./Garaj.site/src/Assets/artstationlogo.png"
+            src={YTLogo}
             alt="ArtStation"
             className="w-12 h-12 cursor-pointer"
             onClick={openAS}
