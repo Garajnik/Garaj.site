@@ -52,7 +52,7 @@ function App() {
             onClick={openYT}
           />
           <img
-            src="./github-mark.png"
+            src="/src/Assets/microIcon.png"
             onClick={openGH}
             alt="Image 3"
             className="w-12 h-12 cursor-pointer"
